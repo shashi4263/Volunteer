@@ -43,7 +43,7 @@ const Donate = () => {
           <img src="/logo.png" alt="logo" />
         </div>
         <div>
-          <label>Show your love for Poors</label>
+          <label>Show your love for needful</label>
           <input
             type="number"
             value={amount}

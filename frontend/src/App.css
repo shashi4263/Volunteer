@@ -20,22 +20,22 @@
 
 /********************************ABOUT COMPONENT********************************************/
 .about {
-  padding: 40px 100px;
-  min-height: 800px;
+  padding: 20px 100px;
+  min-height: 700px;
 }
 .about .hero {
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 .about .hero .banner {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
 }
 .about .hero .banner img {
-  height: 100%;
+  height: 80%;
 }
 .about .hero .banner h1 {
   font-size: 2.4rem;
@@ -163,6 +163,8 @@
 }
 
 .contact .container form h2 {
+  color:#2f641d;
+  font-weight: 500;
   font-size: 2rem;
   text-align: center;
 }
@@ -209,7 +211,7 @@
 
 .contact .banner .wrapper p span {
   display: flex;
-  background: #facc15;
+  background: #2f641d;
   padding: 12px;
   border-radius: 100%;
 }
@@ -250,11 +252,11 @@
 
 .contact .banner form input:focus,
 .contact .banner form textarea:focus {
-  border-color: #facc15; /* Change border color on focus */
+  border-color: #2f641d; /* Change border color on focus */
 }
 
 .btn {
-  background: #facc15;
+  background: #2f641d;
   color: #fff;
   width: 100%;
   border: 1px;
@@ -267,7 +269,7 @@
 }
 
 .btn:hover {
-  background-color: #e0b114; /* Change background color on hover */
+  background-color: #4d850c; /* Change background color on hover */
 }
 
 @media (max-width: 920px) {
@@ -322,10 +324,10 @@ footer div:first-child {
   align-items: center;
 }
 footer div img {
-  width: 200px;
+  width: 150px;
 }
 footer div h4 {
-  color: #fff;
+  color: #2f641d;
   font-weight: 700;
   letter-spacing: 1px;
   font-size: 26px;
@@ -355,8 +357,8 @@ footer div ul a span {
   display: flex;
   justify-content: center;
   text-align: center;
-  color: #8080805c;
-  font-weight: 300;
+  color: #efe9e95c;
+  font-weight: 250;
   padding: 20px;
 }
 @media (max-width: 1112px) {
@@ -378,7 +380,7 @@ footer div ul a span {
     justify-content: center;
   }
   footer div img {
-    width: 270px;
+    width: 150px;
   }
   footer {
     padding: 20px;
@@ -395,7 +397,7 @@ footer div ul a span {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgb(133, 133, 133);
-  padding: 20px 110px;
+  padding: 8px 100px;
   align-items: center;
 }
 .navbar .hamburger {
@@ -405,7 +407,7 @@ footer div ul a span {
   flex: 1;
 }
 .navbar .logo img {
-  width: 100px;
+  width: 80px;
 }
 .navbar .links {
   flex: 2;
@@ -415,7 +417,7 @@ footer div ul a span {
 .navbar .links ul {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 25px;
 }
 .navbar .links ul li {
   list-style-type: none;
@@ -426,21 +428,24 @@ footer div ul a span {
   color: #444;
   transition: 0.3s;
 }
-.navbar .links ul li a:hover {
-  color: #facc15;
+.navbar .links ul li a:hover,
+.navbar .links ul li a.active {
+  color: #2f641d;
+  font-weight: 500;
   transition: 0.3s;
+  
 }
 .navbar .links ul:last-child {
   gap: 10px;
 }
 .navbar .links ul:last-child li {
   padding: 8px;
-  border: 2px solid #facc15;
+  border: 2px solid #2f641d;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 100%;
-  background: #facc15;
+  background: #2f641d;
   transition: 0.3s;
 }
 .navbar .links ul:last-child li:hover {
@@ -448,7 +453,7 @@ footer div ul a span {
   transition: 0.3s;
 }
 .navbar .links ul:last-child li:hover svg {
-  color: #facc15;
+  color: #7bc613;
   transition: 0.3s;
 }
 .navbar .links ul li svg {
@@ -560,10 +565,10 @@ footer div ul a span {
 /*********************************MEMBERS MINI COMPONENT********************************************/
 .members {
   display: flex;
-  min-height: 100vh;
+  min-height: 70vh;
   justify-content: center;
   align-items: center;
-  padding: 50px 20px;
+  padding: 20px 20px;
 }
 .members .container {
   max-width: 1500px;
@@ -577,15 +582,15 @@ footer div ul a span {
   margin-bottom: 12px;
 }
 .members .container .heading_section h2 {
-  color: #111;
-  font-size: 32px;
+  color: #2f641d;
+  font-size: 50px;
   font-weight: 600;
 }
 .members .container .heading_section p {
-  color: #333;
-  font-size: 18px;
-  font-weight: 300;
-  max-width: 650px;
+  color: #605b5b;
+  font-size: 26px;
+  font-weight: 400;
+  max-width: 850px;
 }
 .members .container .members_container {
   display: flex;
@@ -602,7 +607,9 @@ footer div ul a span {
 }
 .members .container .members_container .card img {
   width: 100%;
-  height: 409px;
+  height: 380px;
+  border-top-left-radius: 20px; 
+  border-bottom-right-radius: 20px
 }
 .members .container .members_container .card h3 {
   font-size: 1.5rem;
@@ -675,8 +682,8 @@ footer div ul a span {
   width: 100%;
 }
 .qualities h2 {
-  color: #111;
-  font-size: 32px;
+  color: #2f641d;
+  font-size: 40px;
   font-weight: 600;
 }
 .qualities .container .card {
@@ -687,6 +694,7 @@ footer div ul a span {
 .qualities .container .card .img-wrapper {
   display: flex;
   min-width: 340px;
+  border-radius: 25px;
 }
 .qualities .container .card .content {
   display: flex;
@@ -696,7 +704,7 @@ footer div ul a span {
 }
 .qualities .container .card .content .title {
   font-size: 26px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .qualities .container .card .content .description {
   font-size: 22px;
@@ -727,10 +735,11 @@ footer div ul a span {
 .hero {
   min-width: 1500px;
   max-width: 1500px;
+  padding: 0 10px ;
   margin: 0 auto;
   display: flex;
   gap: 30px;
-  min-height: 800px;
+  min-height: 750px;
 }
 .hero .banner {
   flex: 1;
@@ -741,7 +750,7 @@ footer div ul a span {
 .hero .banner h1 {
   font-size: 4rem;
   font-weight: 600;
-  color: #facc15;
+  color: #2f641d;
 }
 .hero .banner h3 {
   font-size: 3rem;
@@ -791,21 +800,21 @@ footer div ul a span {
 
 /********************** DONATE US COMPONENT************************/
 .donate {
-  min-height: 800px;
+  min-height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 20px;
+  padding: 10px 30px;
 }
 .donate form {
-  width: 750px;
+  width: 500px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  padding: 20px;
+  gap: 20px;
+  padding: 10px;
 }
 .donate form div img {
-  width: 250px;
+  width: 130px;
   margin: 0 auto;
 }
 .donate form div {
@@ -814,8 +823,8 @@ footer div ul a span {
   gap: 10px;
 }
 .donate form input {
-  padding: 8px 0;
-  font-size: 24px;
+  padding: 8px 0 ;
+  font-size: 18px;
   border: none;
   border-bottom: 1px solid gray;
 }

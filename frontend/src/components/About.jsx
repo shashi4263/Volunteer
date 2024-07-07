@@ -7,13 +7,12 @@ const About = () => {
         <div className="banner">
           <h1>Our Story</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium
-            ipsum voluptatum excepturi temporibus eligendi molestiae, vero
-            corporis earum beatae nobis ea vitae non repudiandae libero
-            necessitatibus? Rem eum sunt itaque recusandae ipsam saepe, aliquid
-            delectus magni iste dignissimos vitae quas aut aspernatur dolor hic
-            esse ex sint perferendis ipsa dolore. Earum facilis ducimus illum
-            vero fuga ipsum, ad nulla dolorem.
+            Welcome to Volunteer, dedicated to supporting those in need through
+            compassionate fundraising initiatives. We strive to connect
+            individuals and communities facing challenges with the resources and
+            support they deserve. Join us in making a meaningful difference in
+            the lives of others through our commitment to caring and effective
+            philanthropy.
           </p>
         </div>
         <div className="banner">

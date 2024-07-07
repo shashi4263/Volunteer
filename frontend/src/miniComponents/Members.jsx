@@ -20,22 +20,7 @@ const Members = () => {
     {
       id: 4,
       image: "/m4.jpg",
-      title: "Rober",
-    },
-    {
-      id: 5,
-      image: "/m5.jpg",
-      title: "Siri",
-    },
-    {
-      id: 6,
-      image: "/m6.jpg",
-      title: "Tobey",
-    },
-    {
-      id: 7,
-      image: "/m7.jpg",
-      title: "Jhon Wick",
+      title: "Robert",
     },
   ];
   return (
@@ -43,11 +28,12 @@ const Members = () => {
       <section className="members">
         <div className="container">
           <div className="heading_section">
-            <h2 className="heading">MEMBERS</h2>
+            <h2 className="heading">Nice to meet you</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              accusamus aspernatur hic laboriosam blanditiis atque error eius
-              dolorem fuga harum?
+              Our leadership team is both dedicated and innovative to help
+              people out there.It’s a privilege for us to play an instrumental
+              role in empowering needful for fundraising aspirations and bring
+              positive impact in community.
             </p>
           </div>
           <div className="members_container">
