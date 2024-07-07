@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 import { dbConnection } from "./database/dbConnection.js";
 import messageRouter from "./router/messageRouter.js";
-// import checkoutRouter from "./router/checkoutRouter.js";
+import checkoutRouter from "./router/checkoutRouter.js";
 
 const app = express();
 dotenv.config({ path: "./config.env" });
@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/v1/message", messageRouter);
-// app.use("/api/v1", checkoutRouter);
+app.use("/api/v1", checkoutRouter);
 
 dbConnection();
 
