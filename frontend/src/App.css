@@ -822,6 +822,11 @@ footer div ul a span {
   flex-direction: column;
   gap: 10px;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 .donate form input {
   padding: 8px 0 ;
   font-size: 18px;
